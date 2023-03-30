@@ -1,0 +1,102 @@
+
+
+/**
+ * CSCI2720/ESTR2106 Assignment 1
+ * Bootstrap Web Page with a Web Form
+ *
+ * I declare that the assignment here submitted is original
+ * except for source material explicitly acknowledged,
+ * and that the same or closely related material has not been
+ * previously submitted for another course.
+ * I also acknowledge that I am aware of University policy and
+ * regulations on honesty in academic work, and of the disciplinary
+ * guidelines and procedures applicable to breaches of such
+ * policy and regulations, as contained in the website.
+ *
+ * University Guideline on Academic Honesty:
+ *   http://www.cuhk.edu.hk/policy/academichonesty
+ * Faculty of Engineering Guidelines to Academic Honesty:
+ *   https://www.erg.cuhk.edu.hk/erg/AcademicHonesty
+ *
+ * Student Name: xxx <LU Yixi>
+ * Student ID  : xxx <1155144481>
+ * Date        : xxx <2022-10-07>
+ */
+
+#main{
+    background-image: url("background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer{
+    background-color: black;
+}
+
+.progress{
+    border-radius: 0;
+    z-index: 99;
+}
+
+#header{
+    background-image: url("beach.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about{
+    background-color:rgb(255, 214, 220);
+}
+#learningexperience{
+    background-color: rgb(191, 255, 191);   
+}
+
+#hobby{
+    background-color: rgb(255, 255, 165);
+}
+
+#comment{
+    background-color: rgb(182, 251, 251);
+    word-break: break-all;
+}
+
+#contact{
+    background-color: rgb(253, 240, 187);
+}
+
+#nav{
+    background-color: rgb(195, 227, 255);
+    display: flex;
+    align-items: center;
+}
+
+#catalog{
+    text-align: center
+}
+
+#special{
+    background-color: rgb(195, 227, 255);
+    text-align: center;
+}
+
+.bar > li {
+    display: inline-block;
+    background-color: aliceblue;
+
+}
+
+#name{
+    font-family: "Brush Script MT", cursive;
+}
+
+.nav-item{
+    padding: 15px;
+    margin: 10px;
+}
+
+.nav-link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color:grey;
+    font-weight: bold;
+}
