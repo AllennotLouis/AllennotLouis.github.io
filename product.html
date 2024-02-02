@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IEMS5718 Store</title>
+    <!-- <?php include 'head.php'; ?> -->
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/common.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <nav class="header">
+                <nav id="bar">
+                    <a href="./index.html" id="logo"><span class="logo">IEMS5718<br>Store</span></a>
+                    <div>
+                        <span> --- </span>
+                        <a href="./category.html">Category 1</span></a>
+                        <span> --- </span>
+                        <a href="./product.html">Product 1</span></a>
+                    </div>
+                    <ul id="tool">
+                        <li>
+                            <div id="shoppingCart">
+                                Shopping Cart
+                                <form action="checkout.php" method="post">
+                                    <div class="container">
+                                        <div id="cart_front">
+                                            <h3>Shopping List</h3>
+                                            <button id="clear">Clear All</button>
+                                        </div>
+                                        <div id="cart_content">
+                                            <ul id="list-in-cart">
+                                                <li class="product-in-cart">
+                                                    <div class="image">
+                                                        <a href="product.html"><img src="asset/img1.jpg" alt="product"></a>
+                                                    </div>
+                                                    <div class="text">
+                                                        <span class="name">Product 1</span>
+                                                        <div>
+                                                            <input type="number" value="1">
+                                                            <span class="price">$100</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="product-in-cart">
+                                                    <div class="image">
+                                                        <a href="product.html"><img src="asset/img1.jpg" alt="product"></a>
+                                                    </div>  
+                                                    <div class="text">
+                                                        <span class="name">Product 2</span>
+                                                        <div>
+                                                            <input type="number" value="1">
+                                                            <span class="price">$100</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="product-in-cart">
+                                                    <div class="image">
+                                                        <a href="product.html"><img src="asset/img1.jpg" alt="product"></a>
+                                                    </div>
+                                                    <div class="text">
+                                                        <span class="name">Product 3</span>
+                                                        <div>
+                                                            <input type="number" value="1">
+                                                            <span class="price">$100</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="product-in-cart">
+                                                    <div class="image">
+                                                        <a href="product.html"><img src="asset/img1.jpg" alt="product"></a>
+                                                    </div>
+                                                    <div class="text">
+                                                        <span class="name">Product 4</span>
+                                                        <div>
+                                                            <input type="number" value="1">
+                                                            <span class="price">$100</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="product-in-cart">
+                                                    <div class="image">
+                                                        <a href="product.html"><img src="asset/img1.jpg" alt="product"></a>
+                                                    </div>
+                                                    <div class="text">
+                                                        <span class="name">Product 5</span>
+                                                        <div>
+                                                            <input type="number" value="1">
+                                                            <span class="price">$100</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <h4 id="nothing">There is nothing here :(</h4>
+                                        </div>
+                                        <div id="cart_end">
+                                            <button id="paypal-button">paypal</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                
+                            </div>
+                        </li>
+                        <li><a href="login.php">Login</a></li>
+                    </ul>
+                </nav>
+                <div id="category">
+                    <h4>Category</h4>
+                    <ul>
+                        <li><a href="./category.html">Category 1</a></li>
+                        <li><a href="category.php?category=2">Category 2</a></li>
+                        <li><a href="category.php?category=3">Category 3</a></li>
+                        <li><a href="category.php?category=4">Category 4</a></li>
+                        <li><a href="category.php?category=5">Category 5</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </nav>
+    </header>
+    <div class="main">
+        <section>
+            <h3>Product 1 </h3>
+            <img class="image-product" src="asset/img1.jpg" alt="product">
+            <h4>Product 1</h4>
+            <p>Price: $100</p>
+            <p>Stock: 100</p>
+            <p>Category: Category 1</p>
+            <p>Product Description: This is product 1 <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio nesciunt natus ratione temporibus repellendus laborum, numquam dolor cum corporis sit totam consectetur ducimus assumenda iusto sed culpa nobis. Magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odit eligendi commodi assumenda! Modi harum explicabo sequi tenetur natus, voluptatibus temporibus rerum at dicta, quasi eius placeat. Doloribus, quibusdam animi.</p>
+            <button onclick="addToCart(1)">Add to Cart</button>
+        </section>
+    </div>
+    <footer>
+
+    </footer>
+
+</body>
+
+
+</html>
